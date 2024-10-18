@@ -2,4 +2,14 @@ import {add, subtract, multiply, divide} from "./calculator.js";
 
 
 
-console.log(add(1,2))
+
+
+const message = process.argv[2];
+
+let msg = message.split('');
+
+function removeWhiteSpace(arr) { return arr.filter((item) => item != ' ')};
+
+msg = removeWhiteSpace(msg);
+
+console.log(msg)
