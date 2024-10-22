@@ -41,6 +41,8 @@ const read = () => {
 	}	
 };
 
+
+// writing file synchronously
 const write = (path, json) => {
 
 	try {
@@ -51,17 +53,6 @@ const write = (path, json) => {
 	}
 }
 
-
-
-
-  // readFile: () => {fs.readFile(filePath, 'utf8', (err, data) => {
-  // 	if (err) {
-  //   	console.error("Error reading the file:", err);
-  //   	return;
-  // 	}
-  // 	console.log(data);
-  // 	});
-// 	}
 
 
 module.exports = read();
