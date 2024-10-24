@@ -44,7 +44,7 @@ if(!Number(msgArr[0]) || !Number(msgArr[2])) {
 
 
 
-readFile;
+
 
 
 
