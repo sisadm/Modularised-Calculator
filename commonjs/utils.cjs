@@ -55,5 +55,5 @@ const write = (path, json) => {
 
 
 
-module.exports = read();
+read();
 
